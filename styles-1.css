@@ -1,0 +1,47 @@
+/* General page styling */
+body {
+  background: linear-gradient(135deg, #0521f6, #08f6f6, #fbc2eb);
+  font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #15f801;
+}
+
+/* Heading styles */
+h1 {
+  color: #ff4e50;
+  font-size: 3em;
+  text-shadow: 2px 2px #ffd700;
+}
+
+h2 {
+  color: #00bcd4;
+  margin-top: 30px;
+  text-shadow: 1px 1px #fff176;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.2em;
+  color: #222;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Images */
+.styled-image {
+  margin: 20px auto;
+  display: block;
+  max-width: 80%;
+  border-radius: 20px;
+  border: 5px solid #034ae4;
+  box-shadow: 0 8px 15px rgba(255, 255, 255, 0.938);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(23, 143, 12, 0.664);
+}
