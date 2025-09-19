@@ -44,3 +44,6 @@ img{
    margin-right: auto;
    width: 50%; 
 }
+
+.image-container { display: flex; justify-content: space-between; /* space evenly across the row */ align-items: center; /* vertically aligned */ gap: 10px; /* spacing between images */ padding: 10px; } .image-container img { flex: 1; /* all images take equal space */ max-width: 100%; /* prevents stretching past container */ height: auto; /* keep proportions */ border-radius: 8px; /* optional styling */ object-fit: cover; /* keeps image looking nice */ 
+}
