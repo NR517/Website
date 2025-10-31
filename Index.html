@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> Tables </title>
+    <link rel="stylesheet" href="Style.css"/>
+</head> 
+<body>
+    <h2>Favorite Foods</h2>
+    <table>
+        <caption> Favorite Foods by Type </caption>
+        <thead>
+            <tr>
+                <th> Food </th>
+                <th> Category </th>
+                <th> Rating </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza</td>
+                <td>Main Dish</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                <td> Side </td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Pretzels</td>
+                <td> Snack </td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+                <td>Snack</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">*Ratings are based on my opinions.</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h2> Famous Foods by Country </h2>
+    <table>
+        <caption> Popular International Dishes </caption>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Dish</th>
+                <th>Category</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Italy</th>
+                <td>Pizza</td>
+                <td>Main Dish</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Pasta Carbonara</td>
+                <td>Main Dish</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Japan</th>
+                <td>Sushi</td>
+                <td>Main Dish</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Ramen</td>
+                <td>Soup</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <th>Mexico</th>
+                <td colspan="2">Tacos</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"> *All dishes rated by flavor, presentation, and popularity.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
